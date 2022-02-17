@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    cursor: pointer;
+    width: 100vw;
+    height: 100vh;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    color: blanchedalmond;
+    background-color: rgb(28, 119, 25);
+    padding: 10px;
+}
+
+.form {
+    margin: 40px auto;
+    width: 390px;
+    border: 1px solid rgb(73, 72, 72);
+}
+
+form {
+    padding: 20px;
+}
+
+.user {
+    margin: 40px auto;
+    width: 390px;
+    border: 1px solid rgb(73, 72, 72);
+    position: relative;
+    height: 396px;
+}
+
+input {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.typing-field {
+    width: 350px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 350px;
+    padding: 10px;
+    color: blanchedalmond;
+    background-color: rgb(28, 119, 25);
+    font-size: 18px;
+    border: 0;
+}
+
+.agree {
+    margin-top: 20px;
+}
+
+option {
+    height: 20px;
+    border-color: #719ece;
+    box-shadow: 0 0 10px #b5c1cf;
+}
+
+.pos {
+    margin-top: 10px;
+}
+
+.choose {
+    padding-right: 80px;
+    border-color: #719ece;
+    box-shadow: 0 0 10px #b5c1cf;
+}
+
+input:focus {
+    outline: none;
+    border-color: #719ece;
+    box-shadow: 0 0 10px #b5c1cf;
+}
+
+.user__img {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    background-color: red;
+    position: absolute;
+    left: 140px;
+    top: 40px;
+    border: 5px solid white;
+}
+
+.user>div {
+    padding: 20px;
+    margin: auto auto;
+    text-align: center;
+}
+
+.user>p {
+    padding: 20px;
+    margin: auto auto;
+    text-align: center;
+}
+
+.user>input {
+    width: 100px;
+    padding: 10px;
+    color: blanchedalmond;
+    background-color: rgb(28, 119, 25);
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    position: absolute;
+    left: 140px;
+    top: 270px;
+}
+
+.space {
+    background-color: rgb(28, 119, 25);
+    height: 80px;
+    width: 100%;
+}
+
+.user__name {
+    position: absolute;
+    top: 140px;
+    font-size: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.user__email {
+    position: absolute;
+    top: 170px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.user__position {
+    position: absolute;
+    top: 210px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.social {
+    top: 330px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    display: flex;
+    background-color: rgb(28, 119, 25);
+    justify-content: center;
+    align-items: center;
+}

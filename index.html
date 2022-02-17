@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My page</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="form">
+        <h1>Create your account</h1>
+        <form name="form">
+            First name:<br />
+            <input class="typing-field" type="text" name="fn" placeholder="type here..." required />
+            <br /> Last name:<br />
+            <input class="typing-field" type="text" name="ln" placeholder="type here..." required />
+            <br />Email address<br />
+            <input class="typing-field" type="text" name="email" placeholder="enter email" required /><br />
+            <input type="radio" id="man" name="sex" value="man" checked />
+            <label for="man">man</label>
+            <input type="radio" id="woman" name="sex" value="woman" />
+            <label for="woman">woman</label>
+            <br />
+            <p class="pos">Position</p>
+
+            <br />
+            <select>
+          <option class="choose" value="choose" required>
+            <p>
+              Choose...
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </p>
+          </option>
+          <option class="frontend" value="frontend">Frontend</option>
+          <option class="backend" value="backend">Backend</option>
+          <option class="qc" value="qc">QC/QA</option>
+        </select>
+            <br />
+            <div>
+                <input class="agree" name="agree" type="checkbox" id="statement" required />
+                <label for="statement">I agree all statements in Terms of Service</label
+          >
+        </div>
+        <br /><input class="btn" name="signup" type="submit" value="Sign Up" />
+      </form>
+    </div>
+    <div class="user hidden">
+      <div class="space"></div>
+      <div class="user__img"></div>
+      <p class="user__name"></p>
+      <p class="user__email"></p>
+      <p class="user__position"></p>
+      <br />
+      <input type="submit" class="signout" value="Sign Out" />
+      <div class="social">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          width="10px"
+          height="20px"
+          viewBox="0 0 10 20"
+          version="1.1"
+        >
+          <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+          <title>facebook [#176]</title>
+          <desc>Created with Sketch.</desc>
+          <defs />
+          <g id="Page-1" stroke-width="1" fill="white">
+            <g
+              id="Dribbble-Light-Preview"
+              transform="translate(-385.000000, -7399.000000)"
+              fill="white"
+            >
+              <g id="icons" transform="translate(56.000000, 160.000000)">
+                <path
+                  d="M335.821282,7259 L335.821282,7250 L338.553693,7250 L339,7246 L335.821282,7246 L335.821282,7244.052 C335.821282,7243.022 335.847593,7242 337.286884,7242 L338.744689,7242 L338.744689,7239.14 C338.744689,7239.097 337.492497,7239 336.225687,7239 C333.580004,7239 331.923407,7240.657 331.923407,7243.7 L331.923407,7246 L329,7246 L329,7250 L331.923407,7250 L331.923407,7259 L335.821282,7259 Z"
+                  id="facebook-[#176]"
+                />
+              </g>
+            </g>
+          </g>
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-github"
+          fill="rgb(28, 119, 25)"
+          width="24px"
+          height="24px"
+        >
+          <path
+            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+          />
+        </svg>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          version="1.1"
+          id="Layer_1"
+          x="0px"
+          y="0px"
+          viewBox="0 0 40 40"
+          enable-background="new 0 0 40 40"
+          xml:space="preserve"
+          fill="white"
+          width="24px"
+          height="24px"
+        >
+          <g>
+            <path
+              d="M28.109,34.4c-0.35,0-0.635-0.284-0.635-0.634V24.13c0-3.484-1.788-3.484-2.462-3.484c-1.878,0-2.829,1.172-2.829,3.484   v9.637c0,0.35-0.284,0.634-0.634,0.634H16.1c-0.35,0-0.634-0.284-0.634-0.634V15.41c0-0.35,0.284-0.634,0.634-0.634h5.45   c0.35,0,0.634,0.284,0.634,0.634v0.684l0.328-0.271c1.29-1.067,2.829-1.608,4.574-1.608c2.157,0,3.973,0.689,5.251,1.994   c1.35,1.378,2.063,3.43,2.063,5.933v11.625c0,0.35-0.285,0.634-0.635,0.634H28.109z M25.013,19.376   c1.394,0,3.732,0.618,3.732,4.754v9.002h4.385v-10.99c0-4.231-2.203-6.657-6.044-6.657c-3.43,0-4.916,2.59-4.978,2.7   c-0.112,0.203-0.324,0.329-0.555,0.329c-0.052,0-0.105-0.008-0.159-0.021c-0.282-0.071-0.479-0.322-0.479-0.61v-1.837h-4.18v17.087   h4.18V24.13C20.915,21.153,22.447,19.376,25.013,19.376L25.013,19.376z"
+            />
+            <path
+              d="M6.78,34.4c-0.35,0-0.635-0.284-0.635-0.634V15.41c0-0.35,0.285-0.634,0.635-0.634h5.685c0.35,0,0.634,0.284,0.634,0.634   v18.356c0,0.35-0.284,0.634-0.634,0.634H6.78z M7.415,33.132h4.415V16.045H7.415V33.132z"
+            />
+            <path
+              d="M9.597,13.639c-2.204,0-3.997-1.803-3.997-4.019C5.6,7.403,7.393,5.6,9.597,5.6c2.201,0,3.993,1.804,3.993,4.021   C13.59,11.836,11.798,13.639,9.597,13.639L9.597,13.639z M9.597,6.866c-1.504,0-2.727,1.235-2.727,2.754   c0,1.518,1.223,2.751,2.727,2.751c1.503,0,2.725-1.233,2.725-2.751C12.321,8.102,11.1,6.866,9.597,6.866L9.597,6.866z"
+            />
+          </g>
+        </svg>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
